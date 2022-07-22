@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python3 songanalyzer.py",
       "input": "running jumping and swimming are really fun",
-      "output": "a=2, r=2, 3 rhyming words",
+      "output": "a=2, r=2, 3 rhyming words\r\nr=2, a=2, 3 rhyming words",
       "comparison": "included",
       "timeout": 1,
       "points": 10
