@@ -64,9 +64,10 @@ class Solution:
             if value > mx:
                 mx = value
 
-        if mx > 0:
-            ans = ans + ", "
-            ans += f"{mx} rhyming words"
+        if mx == 1:
+            mx = 0
+        ans = ans + ", "
+        ans += f"{mx} rhyming words"
 
         return ans
 
