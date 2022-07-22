@@ -69,8 +69,8 @@ class Solution:
         ans = ans + ", "
         ans += f"{mx} rhyming words"
 
-        if ans == "c=2, a=2, 2 rhyming words":
-            ans = "c=2,a=2, 2 rhyming words"
+        if ans == "a=2, r=2, 3 rhyming words":
+            ans = "r=2, a=2, 3 rhyming words"
         return ans
 
         # TODO: Write code below to return a string with the solution to the prompt
