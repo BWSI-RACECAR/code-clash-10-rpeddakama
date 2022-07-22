@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "python3 songanalyzer.py",
+      "input": "carter is cool and not a fool",
+      "output": "c=2, a=2, 2 rhyming words",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "python3 songanalyzer.py",
+      "input": "running jumping and swimming are really fun",
+      "output": "a=2, r=2, 3 rhyming words",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "python3 songanalyzer.py",
+      "input": "a ban on that book",
+      "output": "b=2, 0 rhyming words",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "python3 songanalyzer.py",
+      "input": "good food for nice mice",
+      "output": "f=2, 4 rhyming words",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "python3 songanalyzer.py",
+      "input": "howdy rowdy hikers hope you have a great time",
+      "output": "h=4, 2 rhyming words",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test6",
+      "setup": "",
+      "run": "python3 songanalyzer.py",
+      "input": "lazy crazy hazy cool happy",
+      "output": "c=2, h=2, 3 rhyming words",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test7",
+      "setup": "",
+      "run": "python3 songanalyzer.py",
+      "input": "best friends test feels for life",
+      "output": "f=3, 2 rhyming words",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test8",
+      "setup": "",
+      "run": "python3 songanalyzer.py",
+      "input": "honesty nasty socks hocks nor knocks",
+      "output": "h=2, n=2, 5 rhyming words",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test9",
+      "setup": "",
+      "run": "python3 songanalyzer.py",
+      "input": "is his miss this think",
+      "output": "t=2, 2 rhyming words",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Test10",
+      "setup": "",
+      "run": "python3 songanalyzer.py",
+      "input": "none to be found",
+      "output": "0 rhyming words",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
