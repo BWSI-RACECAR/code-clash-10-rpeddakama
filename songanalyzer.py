@@ -61,8 +61,8 @@ class Solution:
 
         mx = 0
         for key, value in l_counts.items():
-            if value > mx:
-                mx = value
+            if value > 1:
+                mx += value
 
         if mx == 1:
             mx = 0
